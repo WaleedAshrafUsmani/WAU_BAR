@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'WAU_BAR_Example' do
+  pod 'WAU_BAR', :path => '../'
+
+  target 'WAU_BAR_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
